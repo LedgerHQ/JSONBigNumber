@@ -1,5 +1,5 @@
 {
-  "name": "json-bignumber",
+  "name": "@ledgerhq/json-bignumber",
   "version": "1.0.2",
   "module": "src/JSONBigNumber.js",
   "main": "dist/JSONBigNumber.min.js",
@@ -25,10 +25,10 @@
   "author": "William Buss",
   "license": "MIT",
   "dependencies": {
-    "bignumber.js": "^7.2.1"
+    "bignumber.js": "^9.0.1"
   },
   "devDependencies": {
-    "eslint": "^6.0.1",
+    "eslint": "^7.25.0",
     "jasmine-core": "^2.99.1",
     "karma": "^2.0.5",
     "karma-chrome-launcher": "^2.2.0",
