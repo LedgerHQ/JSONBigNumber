@@ -7,7 +7,8 @@ module.exports = {
         filename: "JSONBigNumber.min.js",
         path: path.resolve(__dirname, "dist"),
         library: "JSONBigNumber",
-        libraryTarget: "umd"
+        libraryTarget: "umd",
+        globalObject: "this"
     },
     externals: {
         "bignumber.js": {

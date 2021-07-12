@@ -1,5 +1,5 @@
 {
-  "name": "json-bignumber",
+  "name": "@ledgerhq/json-bignumber",
   "version": "1.0.2",
   "module": "src/JSONBigNumber.js",
   "main": "dist/JSONBigNumber.min.js",
