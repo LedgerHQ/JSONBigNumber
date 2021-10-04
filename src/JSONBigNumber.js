@@ -427,15 +427,11 @@ var escapee = {
 var text;
 
 var error = function (m) {
-
     // Call error when something is wrong.
-
-    throw {
-        name: "SyntaxError",
-        message: m,
-        at: at,
-        text: text
-    };
+    const error = new SyntaxError(m);
+    error.lineNumber=at;
+    error.stack = text;
+    throw error;
 };
 
 var next = function (c) {
